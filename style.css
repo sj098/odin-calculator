@@ -4,15 +4,17 @@
     border-style: solid;
     margin: 10px;
     width: 400px;
-    height: 480px;
+    height: 500px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 5px;
 }
 
 .top {
     display: flex;
     flex-wrap: wrap;
+    padding: 2px 0;
 }
 
 .left {
@@ -23,14 +25,34 @@
 }
 
 .display {
-    width: 300px;
-    height: 80px;
-    font-size: 20px;
+    width: 280px;
+    height: 40px;
+    font-size: 30px;
     text-align: right;
     border: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 30px;
+    padding: 10px 20px 30px 0;
+    margin: 5px;
+}
+
+.previous {
+    font-size: 20px;
+    color: slategray;
+    height: 15px;
+    width: 280px;
+    padding: 5px;
+    margin: 0;
+}
+
+.current {
+    font-size: 30px;
+    color: black;
+    height: 25px;
+    width: 280px;
+    padding: 5px;
+    margin: 0;
 }
 
 .digits {
@@ -40,17 +62,19 @@
     align-items: center;
     width: 300px;
     height: 320px;
-    gap: 5px;
+    gap: 5px 15px;
+    padding: 8px;
 }
 
 .digit {
-    height: 70px;
+    height: 45px;
     width: 70px;
     border: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 30px;
     text-align: center;
+    padding: 25px 0 0 0;
 }
 
 .right {
@@ -63,26 +87,28 @@
     gap: 5px;
 }
 
-.operator {
-    height: 70px;
+.operator, .equal {
+    height: 45px;
     width: 70px;
     border: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 30px;
     text-align: center;
+    padding: 25px 0 0 0;
 }
 
 .bottom {
-    padding: 0 25px;
+    padding: 10px 5px 25px;
 }
 
 .clear {
-    height: 70px;
+    height: 45px;
     width: 350px;
     border: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 30px;
     text-align: center;
+    padding: 25px 0 0 0;
 }
