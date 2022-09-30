@@ -32,10 +32,6 @@ function operate(operator, a, b) {
 }
 
 // DISPLAY
-// Create the functions that populate the display when you 
-// click the number buttons. You should be storing the 
-// ‘display value’ in a variable somewhere for use in the 
-// next step.
 let currentValue = '';
 let previousValue = '';
 let operator = '';
